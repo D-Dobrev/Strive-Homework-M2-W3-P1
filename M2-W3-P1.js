@@ -25,7 +25,17 @@ const say = area(5, 2)
 */
 
 /* WRITE YOUR ANSWER HERE */
-const crazy
+console.log("Exercise 2"); 
+const crazySum = function(integer1, integer2) {
+
+    if (integer1 !== integer2) {
+        console.log(integer1 + integer2)
+    } else {
+        console.log((integer1 + integer2) * 3)
+    }
+}; 
+const integers = crazySum(5, 5)
+
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
  It should return triple their absolute difference if the given number is greater than 19.
